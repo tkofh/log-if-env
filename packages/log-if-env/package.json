@@ -1,6 +1,6 @@
 {
   "name": "log-if-env",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Environment Aware Logging Utilities",
   "author": "Tim Morris <timthewebguy@gmail.com>",
   "homepage": "https://github.com/tkofh/log-if-env#readme",
