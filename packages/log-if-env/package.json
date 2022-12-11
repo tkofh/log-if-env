@@ -1,0 +1,41 @@
+{
+  "name": "log-if-env",
+  "version": "0.0.0",
+  "description": "Environment Aware Logging Utilities",
+  "author": "Tim Morris <timthewebguy@gmail.com>",
+  "homepage": "https://github.com/tkofh/log-if-env#readme",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkofh/log-if-env.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublish": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/tkofh/log-if-env/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "tsup": "^6.1.3"
+  }
+}
